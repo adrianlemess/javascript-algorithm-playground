@@ -216,7 +216,7 @@ Execution time is: O(V + E;
 V = vertices
 E = edges
 
-- This algorithm is to find the path based on jumps, but not necessaraly is the shortest path
+- This algorithm is to find shortest path based on jumps, but not necessaraly is the fastest path
 
 #### Queue or Stack?
 
@@ -224,9 +224,6 @@ E = edges
 - Queue is FIFO
 - Stack is Lifo
 - The BFS algorithm should use queue structure, the order when add on the queue matters, we should always check the first element, to guarantee that we check all the first level before the second level, before the third and so on
-  Tema de casa:
-
-- Comparar diferentes estruturas de dados em JS com o tempo de execução de cada uma
 
 ##### Graphs
 
