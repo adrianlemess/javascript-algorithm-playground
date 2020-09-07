@@ -231,8 +231,23 @@ E = edges
 - If we have edges only for one direction, we can call trees.
 - Trees are only one direction
 - a Tree is always a graph, but the opposite may not always be true
+- A graphic with no weight is called unweighted graph and best algorithm to calculate is the BFS
+- A graphic with weight associated with edged is called weighted graph and the best algorithm is the Dijkstra
+- A graphic un-directed has a cicle
 
 ## Dijkstra Algorithm
 
 - This algorithm consider the time of each edge
 - Is to find the shortest path
+- The cost or the number associated with each edge is called weight
+- When calculate the fastest path we should avoid cicle
+- Each time we pass in a cicle we add more weight to the final path
+- Its not always to path, could be used to reduce different values
+- We cannot use this algorithm with:
+  - Edges with direct cicles: This algorithm only works in a Directed Acyclic graph - is a finite directed graph with no directed cycles
+  - Negative weights (to this cases we should use the Bellman-Ford algorithm) - When you compare two vertices and start with the minimuim value, the algorithm suppose that is the minimum effort to that vertice
+- This algorithm use chain list and recursion
+
+## Bellman-Ford algorithm
+
+@TODO
