@@ -8,7 +8,6 @@ function isAnagramString(str1, str2) {
     str1Reversed = `${char}${str1Reversed}`;
   }
 
-  console.log(str1Reversed);
   return str1Reversed === str2;
 }
 

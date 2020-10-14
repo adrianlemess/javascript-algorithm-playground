@@ -3,7 +3,7 @@
 const bookPrice = new Map();
 bookPrice.set("apple", 0.67);
 bookPrice.set("milk", 1.49);
-bookPrice.set("Avocado", 1.49);
+bookPrice.set("avocado", 1.49);
 
 console.log(bookPrice.get("avocado"));
 
