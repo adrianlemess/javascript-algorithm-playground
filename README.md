@@ -4,6 +4,14 @@ This is a playground with notes about algorithms. I'm using JavaScript to experi
 
 Most of the algorithms was taken from: https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230
 
+## Set
+
+- Conjuntos
+- Might be used to compare with others sets and making operations
+  - Intersection
+  - Union
+  - Difference
+
 ## Binary Search
 
 - It's good to find something in a list
@@ -251,3 +259,10 @@ E = edges
 ## Bellman-Ford algorithm
 
 @TODO
+
+## Greedy algorithms
+
+- Its a simples solution to complex problems
+- In each stage/interation we need to choose the ideal moviment, the ideal solution
+- They are not perfect, sometimes we have a good solution but not the best
+- Sometimes, find the best solution could take a lot of time, that's why the greedy algorithms is a good take
