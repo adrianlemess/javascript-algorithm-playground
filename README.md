@@ -266,3 +266,64 @@ E = edges
 - In each stage/interation we need to choose the ideal moviment, the ideal solution
 - They are not perfect, sometimes we have a good solution but not the best
 - Sometimes, find the best solution could take a lot of time, that's why the greedy algorithms is a good take
+
+## The traveler salesman (Caixeiro Viajante)
+
+- Given a list of cities and the distance between each pair of cities, what the shorthest posible path?
+- The possibilities is a factorial function:
+
+Cities numbers | routes:
+!1 | 1 route
+!2 | 2 initial cities _ 1 route = 2 routes
+!3 | 3 initial cities _ 2 route = 6 routes
+!4 | 4 initial cities _ 6 route = 24 routes
+!5 | 5 initial cities _ 24 route = 120 routes
+
+!6 = 720 rotas
+!7 = 5040 rotas
+
+- In factorial functions, its almost imposible to calculate the correctly solution when the number is too elevate
+- Greedy solution: choose a random city and each moment we need to choose the shortest path to a city not visited yet and directly connected
+- Sets and the travaller salesman is a NP-completeness problem: We calculate each posible solution and get the shortest
+
+## NP-completeness
+
+A problem is NP-completeness when:
+
+- A nondeterministic Turing machine can solve it in polynomial-time.
+- A deterministic Turing machine can solve it in large time complexity classes (e.g., EXPTIME, as is the case with brute force search algorithms) and can verify its solutions in polynomial time.
+- It can be used to simulate any other problem with similar solvability.
+
+## NP problem example.
+
+Johna is mounting a soccer team and has a set of characteristic he want to fill in his team:
+
+- Ability to play in the rain
+- Work under pression
+- A good quaterback
+- A good Running back
+
+But the team has a limit in number of players.
+
+Jonah wants a team to fill all the wisher characteristics. This is a set cover problem.
+
+- Algorithm:
+  - Choose the player with the maximum number of characteristics not find yet
+  - Reapeat until all the characterist was fill or the limit of players is filled
+
+When a problem is a NP problem we should stop try to solve perfectly and start doing in a greedy way with a shorthest algorithm
+
+## How to identify an NP problem
+
+- Is fast with a few items but is slow with more items
+- All the combinations to find something usually means NP-completeness
+- You need to calculate each posible version of X because you cannot divide in short sub problems
+- A sequence of something like cities and its hard to solve
+- If involves a set and its hard to solve
+- Its similar with the cover set problem or the salessman traveler problem? so its
+
+  8.6 - Yes
+  8.7 - Yes
+  8.8. Yes
+
+2642
