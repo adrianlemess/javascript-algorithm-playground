@@ -321,3 +321,10 @@ When a problem is a NP problem we should stop try to solve perfectly and start d
 - A sequence of something like cities and its hard to solve
 - If involves a set and its hard to solve
 - Its similar with the cover set problem or the salessman traveler problem? so its
+
+## Big O notation to check all sets posibilities
+
+When we need to check multiple possibilities to check the best combination posible, the simplest algorithm is O(2^n), its too slow.
+
+To each 3 items: 2^3 = 8 combinations
+to each 4 items combinations: 2^4 = 16 combinations
