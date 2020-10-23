@@ -321,9 +321,3 @@ When a problem is a NP problem we should stop try to solve perfectly and start d
 - A sequence of something like cities and its hard to solve
 - If involves a set and its hard to solve
 - Its similar with the cover set problem or the salessman traveler problem? so its
-
-  8.6 - Yes
-  8.7 - Yes
-  8.8. Yes
-
-2642
