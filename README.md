@@ -328,3 +328,123 @@ When we need to check multiple possibilities to check the best combination posib
 
 To each 3 items: 2^3 = 8 combinations
 to each 4 items combinations: 2^4 = 16 combinations
+
+## Dynamic programming
+
+- Don't work when the values of the items has a relation
+- Example: want to now place A, B and C in Paris.
+
+To travel from london to paris take half day. If I travel to place A, place B and C will be shepear.
+
+But wont work to this scneario. The values of each item must not have any relation
+
+It works when we want optimize in relation to a limit. Ex: In the bag items problem, we want to take maximize the value of the items with a capacity limit in our case;
+
+To solve a Dynamic programming problem we need to split the problem into smaller parts.
+
+Tips to find a solution:
+
+- Every solution of dynamic programing involve a table
+- The values in each cell its what we want to optimize
+- Each cell is a sub-problem we need to think how to split it into smaller parts to solve.
+
+Dictionary to suggest the correct word when the user enters a wrong word is a good idea to use dynamic programming
+
+There is no magical formula to calculate problems with dynamic programming
+
+## KNN (K-Nearest Neighbors)
+
+Use cases?
+
+- Prevent a number
+
+  - Would the user like a movie?
+  - Which value would be the market stock tomorrow?
+
+- We can check N nearest neighbors. Not only 3, 5, 2, but even more.
+- We can use this algorithm to learn something based on characterists to be able to predict the future value.
+- To discover the K value we need to identify the how much users (N) do we have in our system and calculate the square of N users;
+
+## Binary search
+
+It's a data structure. To read, insert and delete has O(log N) in the average.
+
+## Hash text (indexing)
+
+We get a string and put in a hash table with the address to find.
+
+## fourier transform
+
+Its a good tool to process signs. For example, get frequencies of a music.
+
+Its used to:
+
+- Analyse DNA
+- Prevent terremotes
+- Compress song frequencies
+- Compress image
+
+The app Shazam use this algorithm.
+
+## Paralel algorithms
+
+- Its related to scalability
+- Solve problems like load balancing of tasks
+- How to split a complex task between two or more nodes?
+
+## Map Reduce
+
+Its usefull when we need to proccess a lot of tasks in parallel
+
+ITs has to functions, the map function and the reduce function
+
+### Map Functions
+
+To each item in array execute a function. This function can be executed with multiple proccess in parallel
+
+## Reduce function
+
+The reduce function get all the values in array and reduce to a single one
+
+## Bloom filters
+
+- Might be used to replace hash algorithms problem when we have a huge amount of data (like Google indexing pages)
+- Its use less memory than hash data structure.
+- But its not 100% perfect, it might offer a false positive.
+
+## HyperLogLog
+
+- Its when we need to extract info in a probablistic way without storing a lot of data.
+
+## Sha algoritmos
+
+- Its a hash algorithm that
+- Its a hash function that receives a string and returns another string;
+- Might be used to:
+- Check if files with a big size are identical;
+- Encrypt password
+- We can convert a string to a hash but not the opposite
+
+## SimHash
+
+- Its used to compare similar hashes
+
+## Diffie-Hellman change keys
+
+Both parts of the transaction don't need to know the current cypher.
+
+Its has two keys, a public one and a private one.
+
+### Public Key
+
+The public key is used to encrypt the message. It can be shared.
+
+### Private Key
+
+A encripted message with the public key can only be decrypted by the private key. Only the person with the private key can decrypt the message.
+
+### Linear promgraming
+
+- its to maximize the result of a problem with a limitation.
+
+Graphos is inside of linear programming.
